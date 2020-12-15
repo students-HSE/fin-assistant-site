@@ -7,10 +7,36 @@
       <e p=".gitignore" t="Include" />
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
+      <e p="azure-pipelines.yml" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="ClientApp" t="Include">
         <e p=".eslintrc.json" t="Include" />
         <e p=".gitignore" t="Include" />
+        <e p="build" t="Include">
+          <e p="asset-manifest.json" t="Include" />
+          <e p="favicon.ico" t="Include" />
+          <e p="index.html" t="Include" />
+          <e p="manifest.json" t="Include" />
+          <e p="precache-manifest.2011ba7e6b3362567b76816296aabb9a.js" t="Include" />
+          <e p="service-worker.js" t="Include" />
+          <e p="static" t="Include">
+            <e p="css" t="Include">
+              <e p="2.c6250e3a.chunk.css" t="Include" />
+              <e p="2.c6250e3a.chunk.css.map" t="Include" />
+              <e p="main.6636e503.chunk.css" t="Include" />
+              <e p="main.6636e503.chunk.css.map" t="Include" />
+            </e>
+            <e p="js" t="Include">
+              <e p="2.d0efe911.chunk.js" t="Include" />
+              <e p="2.d0efe911.chunk.js.LICENSE.txt" t="Include" />
+              <e p="2.d0efe911.chunk.js.map" t="Include" />
+              <e p="main.dcf536c1.chunk.js" t="Include" />
+              <e p="main.dcf536c1.chunk.js.map" t="Include" />
+              <e p="runtime-main.8e7ef25a.js" t="Include" />
+              <e p="runtime-main.8e7ef25a.js.map" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="node_modules\@babel\parser" t="IncludeRecursive" />
         <e p="node_modules\@babel\types" t="IncludeRecursive" />
         <e p="node_modules\@jest\console" t="IncludeRecursive" />

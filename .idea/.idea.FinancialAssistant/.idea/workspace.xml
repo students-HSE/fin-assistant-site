@@ -9,44 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="234c499b-7af3-4cd5-b7dc-1dffb9920715" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/App.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/components/Counter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/components/FetchData.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/components/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/components/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/components/NavMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/components/NavMenu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/registerServiceWorker.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/store/Counter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/store/WeatherForecasts.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/store/configureStore.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinancialAssistant.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinancialAssistant.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FinancialAssistant/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FinancialAssistant/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/components/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/components/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/components/NavMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/components/NavMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinancialAssistant.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FinancialAssistant.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +25,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/ClientApp/src/components/FetchData.tsx" />
         <option value="$PROJECT_DIR$/ClientApp/src/components/Home.tsx" />
         <option value="$PROJECT_DIR$/ClientApp/src/components/NavMenu.tsx" />
-        <option value="$PROJECT_DIR$/ClientApp/src/components/FetchData.tsx" />
       </list>
     </option>
   </component>
@@ -120,12 +86,20 @@
       <updated>1607508748625</updated>
       <workItem from="1607508757048" duration="3023000" />
     </task>
+    <task id="LOCAL-00001" summary="Removed pipelines.">
+      <created>1608031135028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608031135028</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -137,9 +111,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Removed pipelines." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed pipelines." />
   </component>
   <component name="WindowStateProjectService">
     <state width="1397" height="282" key="GridCell.Tab.0.bottom" timestamp="1607511810530">
