@@ -11,21 +11,21 @@ export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }
     public render() {
         return (
             <header>
-                <Navbar className="navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3" light>
-                    <Container>
+                <Navbar className="navbar-expand-lg navbar-toggleable-lg border-bottom box-shadow mb-3" light>
+                    <Container fluid={true}>
                         <NavbarBrand tag={Link} to="/">FinancialAssistant</NavbarBrand>
                         <NavbarToggler onClick={this.toggle} className="mr-2"/>
-                        <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={this.state.isOpen} navbar>
+                        <Collapse isOpen={this.state.isOpen} navbar>
                             <ul className="navbar-nav flex-grow">
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-dark" to="/">Главная</NavLink>
+                                    <NavLink tag={Link} className="text-dark" to="/profile">Профиль</NavLink>
                                 </NavItem>
-                                {/*<NavItem>*/}
-                                {/*    <NavLink tag={Link} className="text-dark" to="/counter">Counter</NavLink>*/}
-                                {/*</NavItem>*/}
-                                {/*<NavItem>*/}
-                                {/*    <NavLink tag={Link} className="text-dark" to="/fetch-data">Fetch data</NavLink>*/}
-                                {/*</NavItem>*/}
+                                <NavItem>
+                                    <NavLink tag={Link} className="text-dark" to="/stock-portfolio">Портфель акций</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink tag={Link} className="text-dark" to="/companies">Список компаний</NavLink>
+                                </NavItem>
                             </ul>
                         </Collapse>
                     </Container>

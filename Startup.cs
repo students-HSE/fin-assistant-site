@@ -1,8 +1,10 @@
+using FinancialAssistant.Model;
+using FinancialAssistant.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -23,6 +25,13 @@ namespace FinancialAssistant
         {
             services.AddControllersWithViews();
 
+            services.AddDbContext<ApplicationDbContext>(builder =>
+            {
+                builder.UseInMemoryDatabase("TestDatabase");
+            });
+
+            services.AddScoped<UsersService>();
+            
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration => { configuration.RootPath = "ClientApp/build"; });
         }

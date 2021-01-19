@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\gavrilov\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\gavrilov\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_FinancialAssistant.-393788667.00" t="ExcludeRecursive" />
+    <e p="C:\Users\gavrilov\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\gavrilov\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_FinancialAssistant.-393788667.00" t="ExcludeRecursive" />
+    <e p="C:\Users\gavrilov\AppData\Roaming\JetBrains\Rider2020.3\javascript\extLibs\http_s3.tradingview.com_tv.js" t="IncludeRecursive" />
     <e p="C:\Users\gavrilov\RiderProjects\FinancialAssistant" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
-      <e p="azure-pipelines.yml" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="ClientApp" t="Include">
         <e p=".eslintrc.json" t="Include" />
@@ -50,7 +50,6 @@
           <e p="babel__generator" t="IncludeRecursive" />
           <e p="babel__template" t="IncludeRecursive" />
           <e p="babel__traverse" t="IncludeRecursive" />
-          <e p="events" t="IncludeRecursive" />
           <e p="history" t="IncludeRecursive" />
           <e p="hoist-non-react-statics" t="IncludeRecursive" />
           <e p="istanbul-lib-coverage" t="IncludeRecursive" />
@@ -83,8 +82,6 @@
         <e p="node_modules\csstype" t="IncludeRecursive" />
         <e p="node_modules\del" t="IncludeRecursive" />
         <e p="node_modules\diff-sequences" t="IncludeRecursive" />
-        <e p="node_modules\eslint" t="IncludeRecursive" />
-        <e p="node_modules\eslint-plugin-flowtype" t="IncludeRecursive" />
         <e p="node_modules\eslint-plugin-import" t="IncludeRecursive" />
         <e p="node_modules\eslint-plugin-jsx-a11y" t="IncludeRecursive" />
         <e p="node_modules\eslint-plugin-react" t="IncludeRecursive" />
@@ -124,6 +121,7 @@
         <e p="node_modules\react-router" t="IncludeRecursive" />
         <e p="node_modules\react-router-dom" t="IncludeRecursive" />
         <e p="node_modules\react-scripts" t="IncludeRecursive" />
+        <e p="node_modules\react-tradingview-widget" t="IncludeRecursive" />
         <e p="node_modules\reactstrap" t="IncludeRecursive" />
         <e p="node_modules\redux" t="IncludeRecursive" />
         <e p="node_modules\redux-thunk" t="IncludeRecursive" />
@@ -198,31 +196,39 @@
           <e p="App.test.tsx" t="Include" />
           <e p="App.tsx" t="Include" />
           <e p="components" t="Include">
-            <e p="Counter.tsx" t="Include" />
+            <e p="Companies.tsx" t="Include" />
             <e p="FetchData.tsx" t="Include" />
             <e p="Home.tsx" t="Include" />
             <e p="Layout.tsx" t="Include" />
             <e p="NavMenu.css" t="Include" />
             <e p="NavMenu.tsx" t="Include" />
+            <e p="Profile.tsx" t="Include" />
           </e>
           <e p="custom.css" t="Include" />
           <e p="index.tsx" t="Include" />
           <e p="react-app-env.d.ts" t="Include" />
           <e p="registerServiceWorker.ts" t="Include" />
           <e p="store" t="Include">
+            <e p="Companies.ts" t="Include" />
             <e p="configureStore.ts" t="Include" />
-            <e p="Counter.ts" t="Include" />
             <e p="index.ts" t="Include" />
+            <e p="Profile.ts" t="Include" />
             <e p="WeatherForecasts.ts" t="Include" />
           </e>
         </e>
         <e p="tsconfig.json" t="Include" />
       </e>
       <e p="Controllers" t="Include">
-        <e p="WeatherForecastController.cs" t="Include" />
+        <e p="CompaniesController.cs" t="Include" />
+        <e p="UsersController.cs" t="Include" />
       </e>
       <e p="FinancialAssistant.csproj" t="IncludeRecursive" />
       <e p="FinancialAssistant.sln" t="IncludeFlat" />
+      <e p="Model" t="Include">
+        <e p="ApplicationDbContext.cs" t="Include" />
+        <e p="Company.cs" t="Include" />
+        <e p="User.cs" t="Include" />
+      </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp3.1" t="Include">
@@ -241,8 +247,10 @@
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
       </e>
+      <e p="Services" t="Include">
+        <e p="UsersService.cs" t="Include" />
+      </e>
       <e p="Startup.cs" t="Include" />
-      <e p="WeatherForecast.cs" t="Include" />
     </e>
   </component>
 </project>
