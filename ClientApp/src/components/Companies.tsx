@@ -29,7 +29,7 @@ class Companies extends PureComponent<CompaniesProps, CompaniesState> {
         const companiesList = (this.props.companies || []).map(company => {
             return (
                 <ListGroupItem 
-                    color={company.tradingViewSymbol == this.state.tradingViewSymbol ? 'primary' : ''} 
+                    color={company.tradingViewSymbol === this.state.tradingViewSymbol ? 'primary' : ''} 
                     onClick={() => this.setState({ tradingViewSymbol: company.tradingViewSymbol })}
                 >
                     {company.name}
