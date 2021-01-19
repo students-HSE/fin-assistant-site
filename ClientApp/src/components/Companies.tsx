@@ -1,6 +1,6 @@
 ﻿import React, {PureComponent} from "react";
 import {connect} from "react-redux";
-import {Badge, Col, Container, ListGroup, ListGroupItem, Row} from "reactstrap";
+import {Col, Container, ListGroup, ListGroupItem, Row} from "reactstrap";
 // @ts-ignore
 import TradingViewWidget from "react-tradingview-widget";
 import * as CompaniesStore from "../store/Companies";
@@ -29,7 +29,7 @@ class Companies extends PureComponent<CompaniesProps, CompaniesState> {
         const companiesList = (this.props.companies || []).map(company => {
             return (
                 <ListGroupItem 
-                    color={company.tradingViewSymbol == this.state.tradingViewSymbol ? 'success' : ''} 
+                    color={company.tradingViewSymbol == this.state.tradingViewSymbol ? 'primary' : ''} 
                     onClick={() => this.setState({ tradingViewSymbol: company.tradingViewSymbol })}
                 >
                     {company.name}
